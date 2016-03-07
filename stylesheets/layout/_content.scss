@@ -27,16 +27,11 @@
 
 .move-up {
   animation: slider .5s linear;
+  transform: scale(1.4);
  	z-index: 999 !important;
-	top: 12vh !important;
-	box-shadow: 2px 2px black;
+	top: 16vh !important;
 }
 
-.move-out {
-	trandition: all .5s linear;
-	transform: rotate(90deg);
-	top: 200vh !important;
-	z-index: -1;
-}
+
 
 

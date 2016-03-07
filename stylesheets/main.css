@@ -1,11 +1,6 @@
 @keyframes slider {
   50% {
     top: 50vh; } }
-@keyframes drop {
-  75% {
-    top: 70vh; }
-  100% {
-    top: 200vh; } }
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -511,14 +506,8 @@ body {
 
 .move-up {
   animation: slider .5s linear;
+  transform: scale(1.4);
   z-index: 999 !important;
-  top: 12vh !important;
-  box-shadow: 2px 2px black; }
-
-.move-out {
-  trandition: all .5s linear;
-  transform: rotate(90deg);
-  top: 200vh !important;
-  z-index: -1; }
+  top: 16vh !important; }
 
 /*# sourceMappingURL=main.css.map */
