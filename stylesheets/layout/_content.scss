@@ -23,6 +23,10 @@
 .feature-header {
 	@include feature-header;
 	border-radius: 3px;
+
+	p {
+		color: #ffffcc;
+	}
 }
 
 .move-up {

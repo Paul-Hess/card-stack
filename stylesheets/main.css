@@ -503,6 +503,8 @@ body {
     background: #014101; }
   .phyllum:nth-child(5) .feature-header {
     background: #013201; }
+  .feature-header p {
+    color: #ffffcc; }
 
 .move-up {
   animation: slider .5s linear;
