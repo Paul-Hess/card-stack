@@ -1,0 +1,9 @@
+@keyframes slider {
+	50% {top: 50vh;}
+}
+
+@keyframes drop {
+	// 50% { transform: rotate(90deg);}
+	75% { top: 70vh;}
+	100% { top: 200vh;}
+}
